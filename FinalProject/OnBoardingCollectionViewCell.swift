@@ -20,3 +20,4 @@ class OnBoardingCollectionViewCell: UICollectionViewCell {
         descripcionDiapo.text = diapositiva.descripcion
     }
 }
+
