@@ -65,7 +65,7 @@ class PerfilViewController: UIViewController {
                     if let e = error{
                         print("error al carar los datos: \(e.localizedDescription)")
                     }else{
-                        if ((querySnapShot?.isEmpty) == nil){
+                        if (((querySnapShot?.isEmpty)) != nil){
                             
                         }else{
                             if let snaposhot = querySnapShot?.documents{
